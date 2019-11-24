@@ -773,3 +773,2394 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 9244ms (Views: 8191.2ms | ActiveRecord: 0.0ms | Allocations: 96638)
 
 
+Started GET "/" for ::1 at 2019-11-19 11:46:29 +0700
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.2ms | Allocations: 5)
+Completed 200 OK in 26ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 1841)
+
+
+Started GET "/" for ::1 at 2019-11-19 11:46:32 +0700
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/static_pages/home" for ::1 at 2019-11-19 11:47:33 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1110.6ms | Allocations: 75820)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/firzanaulia/Documents/GitHub/sampleapp2/public/packs
+[Webpacker] Hash: 53154d7baad00c6a1252
+Version: webpack 4.41.2
+Time: 4598ms
+Built at: 11/19/2019 11:47:47 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-0b67a3cc2fcde6055024.js    124 KiB  application  [emitted] [immutable]  application
+js/application-0b67a3cc2fcde6055024.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-0b67a3cc2fcde6055024.js js/application-0b67a3cc2fcde6055024.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 14052ms (Views: 14038.4ms | ActiveRecord: 0.0ms | Allocations: 104847)
+
+
+Started GET "/static_pages/home" for ::1 at 2019-11-19 11:47:55 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.7ms | Allocations: 620)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 27.4ms | ActiveRecord: 0.0ms | Allocations: 8896)
+
+
+Started GET "/static_pages/home" for ::1 at 2019-11-19 11:47:56 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 621)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms | Allocations: 8899)
+
+
+Started GET "/static_pages/home" for ::1 at 2019-11-19 11:47:57 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.4ms | Allocations: 620)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.0ms | Allocations: 8894)
+
+
+Started GET "/static_pages/home" for ::1 at 2019-11-19 11:47:58 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.9ms | Allocations: 620)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 29ms (Views: 27.8ms | ActiveRecord: 0.0ms | Allocations: 8889)
+
+
+Started GET "/static_pages/home" for ::1 at 2019-11-19 11:47:59 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 20.2ms | Allocations: 621)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 53ms (Views: 52.2ms | ActiveRecord: 0.0ms | Allocations: 8895)
+
+
+Started GET "/" for ::1 at 2019-11-19 14:35:16 +0700
+  [1m[35m (3.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 35ms (Views: 16.9ms | ActiveRecord: 0.0ms | Allocations: 1177)
+
+
+Started GET "/static_pages/home" for ::1 at 2019-11-19 14:35:22 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1324.3ms | Allocations: 65214)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1469ms (Views: 1456.3ms | ActiveRecord: 0.0ms | Allocations: 91338)
+
+
+Started GET "/static_pages/home" for ::1 at 2019-11-19 14:35:45 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 5.6ms | Allocations: 620)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 59ms (Views: 56.2ms | ActiveRecord: 0.0ms | Allocations: 8899)
+
+
+Started GET "/static_pages/home" for ::1 at 2019-11-19 14:52:01 +0700
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 10.5ms | Allocations: 621)
+Completed 500 Internal Server Error in 406ms (ActiveRecord: 0.0ms | Allocations: 30091)
+
+
+  
+ActionView::Template::Error (Error: Invalid CSS after "    font-weight:": expected expression (e.g. 1px, bold), was ": normal;"
+        on line 44:17 of app/assets/stylesheets/custom.scss
+>>     font-weight: : normal;
+
+   ----------------^
+):
+    3: <head> 
+    4:   <title><%= yield(:title) %></title> 
+    5:   <%= csrf_meta_tags %> 
+    6:   <%= stylesheet_link_tag 'application', media: 'all', 
+    7:                                           'data-turbolinks-track': 
+    8: 'reload' %> 
+    9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 
+  
+app/assets/stylesheets/custom.scss:44
+app/views/layouts/application.html.erb:6
+Started GET "/static_pages/home" for ::1 at 2019-11-19 14:52:25 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 4.2ms | Allocations: 641)
+Completed 500 Internal Server Error in 361ms (ActiveRecord: 0.0ms | Allocations: 27673)
+
+
+  
+ActionView::Template::Error (Error: style declaration must contain a value
+        on line 45:10 of app/assets/stylesheets/custom.scss
+>>     color: ;#777;
+
+   ---------^
+):
+    3: <head> 
+    4:   <title><%= yield(:title) %></title> 
+    5:   <%= csrf_meta_tags %> 
+    6:   <%= stylesheet_link_tag 'application', media: 'all', 
+    7:                                           'data-turbolinks-track': 
+    8: 'reload' %> 
+    9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 
+  
+app/assets/stylesheets/custom.scss:45
+app/views/layouts/application.html.erb:6
+Started GET "/static_pages/home" for ::1 at 2019-11-19 14:52:52 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 13.7ms | Allocations: 622)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 796ms (Views: 784.6ms | ActiveRecord: 0.0ms | Allocations: 67121)
+
+
+Started GET "/static_pages/home" for ::1 at 2019-11-19 15:05:36 +0700
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 17.5ms | Allocations: 766)
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 0.0ms | Allocations: 3028)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html> 
+<html>
+<head> 
+  <title><%= yield(:title) %></title> 
+  <%= csrf_meta_tags %> 
+  <%= stylesheet_link_tag 'application', media: 'all', 
+                                          'data-turbolinks-track': 
+'reload' %> 
+    <%= javascript_include_tag 'application', 
+                                          'data-turbolinks-track': 
+'reload' %> 
+    <%= render 'layout/shim' %> 
+ </head> 
+ <body> 
+    <%= render 'layout/header' 
+    <div class="container"> 
+   <%= yield %> 
+  </div> 
+</body> 
+</html>
+):
+1:    <!DOCTYPE html> 
+2:    <html>
+3:    <head> 
+4:      <title><%= yield(:title) %></title> 
+5:      <%= csrf_meta_tags %> 
+6:      <%= stylesheet_link_tag 'application', media: 'all', 
+7:                                              'data-turbolinks-track': 
+8:    'reload' %> 
+9:        <%= javascript_include_tag 'application', 
+10:                                              'data-turbolinks-track': 
+11:    'reload' %> 
+12:        <%= render 'layout/shim' %> 
+13:     </head> 
+14:     <body> 
+15:        <%= render 'layout/header' 
+16:        <div class="container"> 
+17:       <%= yield %> 
+18:      </div> 
+19:    </body> 
+20:    </html>
+  
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:22: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:22: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:22: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:22: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:22: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:22: syntax error, unexpected end, expecting ')'
+Started GET "/static_pages/home" for ::1 at 2019-11-19 15:13:19 +0700
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 13.7ms | Allocations: 762)
+Completed 500 Internal Server Error in 42ms (ActiveRecord: 0.0ms | Allocations: 3037)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html> 
+<html>
+  <head> 
+    <title><%= yield(:title) %></title> 
+    <%= csrf_meta_tags %> 
+    <%= stylesheet_link_tag 'application', media: 'all', 
+                                          'data-turbolinks-track': 
+'reload' %> 
+    <%= javascript_include_tag 'application', 
+                                          'data-turbolinks-track': 
+'reload' %> 
+    <%= render 'layout/shim' %> 
+  </head> 
+  <body> 
+    <%= render 'layout/header' 
+    <div class="container"> 
+      <%= yield %> 
+      <%= render 'layout/footer' %>
+    </div> 
+  </body> 
+</html>
+):
+1:    <!DOCTYPE html> 
+2:    <html>
+3:      <head> 
+4:        <title><%= yield(:title) %></title> 
+5:        <%= csrf_meta_tags %> 
+6:        <%= stylesheet_link_tag 'application', media: 'all', 
+7:                                              'data-turbolinks-track': 
+8:    'reload' %> 
+9:        <%= javascript_include_tag 'application', 
+10:                                              'data-turbolinks-track': 
+11:    'reload' %> 
+12:        <%= render 'layout/shim' %> 
+13:      </head> 
+14:      <body> 
+15:        <%= render 'layout/header' 
+16:        <div class="container"> 
+17:          <%= yield %> 
+18:          <%= render 'layout/footer' %>
+19:        </div> 
+20:      </body> 
+21:    </html>
+  
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+Started GET "/static_pages/home" for ::1 at 2019-11-19 15:14:54 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 7.3ms | Allocations: 762)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms | Allocations: 3038)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html> 
+<html>
+  <head> 
+    <title><%= full tile (yield(:title) %></title> 
+    <%= csrf_meta_tags %> 
+    <%= stylesheet_link_tag 'application', media: 'all', 
+                                          'data-turbolinks-track': 
+'reload' %> 
+    <%= javascript_include_tag 'application', 
+                                          'data-turbolinks-track': 
+'reload' %> 
+    <%= render 'layout/shim' %> 
+  </head> 
+  <body> 
+    <%= render 'layout/header' 
+    <div class="container"> 
+      <%= yield %> 
+      <%= render 'layout/footer' %>
+    </div> 
+  </body> 
+</html>
+):
+1:    <!DOCTYPE html> 
+2:    <html>
+3:      <head> 
+4:        <title><%= full tile (yield(:title) %></title> 
+5:        <%= csrf_meta_tags %> 
+6:        <%= stylesheet_link_tag 'application', media: 'all', 
+7:                                              'data-turbolinks-track': 
+8:    'reload' %> 
+9:        <%= javascript_include_tag 'application', 
+10:                                              'data-turbolinks-track': 
+11:    'reload' %> 
+12:        <%= render 'layout/shim' %> 
+13:      </head> 
+14:      <body> 
+15:        <%= render 'layout/header' 
+16:        <div class="container"> 
+17:          <%= yield %> 
+18:          <%= render 'layout/footer' %>
+19:        </div> 
+20:      </body> 
+21:    </html>
+  
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+Started GET "/static_pages/home" for ::1 at 2019-11-19 15:14:57 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 621)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2140)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html> 
+<html>
+  <head> 
+    <title><%= full tile (yield(:title) %></title> 
+    <%= csrf_meta_tags %> 
+    <%= stylesheet_link_tag 'application', media: 'all', 
+                                          'data-turbolinks-track': 
+'reload' %> 
+    <%= javascript_include_tag 'application', 
+                                          'data-turbolinks-track': 
+'reload' %> 
+    <%= render 'layout/shim' %> 
+  </head> 
+  <body> 
+    <%= render 'layout/header' 
+    <div class="container"> 
+      <%= yield %> 
+      <%= render 'layout/footer' %>
+    </div> 
+  </body> 
+</html>
+):
+1:    <!DOCTYPE html> 
+2:    <html>
+3:      <head> 
+4:        <title><%= full tile (yield(:title) %></title> 
+5:        <%= csrf_meta_tags %> 
+6:        <%= stylesheet_link_tag 'application', media: 'all', 
+7:                                              'data-turbolinks-track': 
+8:    'reload' %> 
+9:        <%= javascript_include_tag 'application', 
+10:                                              'data-turbolinks-track': 
+11:    'reload' %> 
+12:        <%= render 'layout/shim' %> 
+13:      </head> 
+14:      <body> 
+15:        <%= render 'layout/header' 
+16:        <div class="container"> 
+17:          <%= yield %> 
+18:          <%= render 'layout/footer' %>
+19:        </div> 
+20:      </body> 
+21:    </html>
+  
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+Started GET "/static_pages/home" for ::1 at 2019-11-19 15:15:51 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 16.2ms | Allocations: 767)
+Completed 500 Internal Server Error in 51ms (ActiveRecord: 0.0ms | Allocations: 3041)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html> 
+<html>
+  <head> 
+    <title><%= full tile (yield(:title) %></title> 
+    <%= csrf_meta_tags %> 
+    <%= stylesheet_link_tag 'application', media: 'all', 
+                                          'data-turbolinks-track': 
+'reload' %> 
+    <%= javascript_include_tag 'application', 
+                                          'data-turbolinks-track': 
+'reload' %> 
+    <%= render 'layout/shim' %> 
+  </head> 
+  <body> 
+    <%= render 'layout/header' 
+    <div class="container"> 
+      <%= yield %> 
+      <%= render 'layout/footer' %>
+    </div> 
+  </body> 
+</html>
+):
+1:    <!DOCTYPE html> 
+2:    <html>
+3:      <head> 
+4:        <title><%= full tile (yield(:title) %></title> 
+5:        <%= csrf_meta_tags %> 
+6:        <%= stylesheet_link_tag 'application', media: 'all', 
+7:                                              'data-turbolinks-track': 
+8:    'reload' %> 
+9:        <%= javascript_include_tag 'application', 
+10:                                              'data-turbolinks-track': 
+11:    'reload' %> 
+12:        <%= render 'layout/shim' %> 
+13:      </head> 
+14:      <body> 
+15:        <%= render 'layout/header' 
+16:        <div class="container"> 
+17:          <%= yield %> 
+18:          <%= render 'layout/footer' %>
+19:        </div> 
+20:      </body> 
+21:    </html>
+  
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+Started GET "/" for ::1 at 2019-11-19 15:18:31 +0700
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.2ms | Allocations: 2)
+Completed 200 OK in 30ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 540)
+
+
+Started GET "/static_pages/home" for ::1 at 2019-11-19 15:18:35 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 27.0ms | Allocations: 762)
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 0.0ms | Allocations: 3026)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html> 
+<html>
+  <head> 
+    <title><%= full tile (yield(:title) %></title> 
+    <%= csrf_meta_tags %> 
+    <%= stylesheet_link_tag 'application', media: 'all', 
+                                          'data-turbolinks-track': 
+'reload' %> 
+    <%= javascript_include_tag 'application', 
+                                          'data-turbolinks-track': 
+'reload' %> 
+    <%= render 'layout/shim' %> 
+  </head> 
+  <body> 
+    <%= render 'layout/header' 
+    <div class="container"> 
+      <%= yield %> 
+      <%= render 'layout/footer' %>
+    </div> 
+  </body> 
+</html>
+):
+1:    <!DOCTYPE html> 
+2:    <html>
+3:      <head> 
+4:        <title><%= full tile (yield(:title) %></title> 
+5:        <%= csrf_meta_tags %> 
+6:        <%= stylesheet_link_tag 'application', media: 'all', 
+7:                                              'data-turbolinks-track': 
+8:    'reload' %> 
+9:        <%= javascript_include_tag 'application', 
+10:                                              'data-turbolinks-track': 
+11:    'reload' %> 
+12:        <%= render 'layout/shim' %> 
+13:      </head> 
+14:      <body> 
+15:        <%= render 'layout/header' 
+16:        <div class="container"> 
+17:          <%= yield %> 
+18:          <%= render 'layout/footer' %>
+19:        </div> 
+20:      </body> 
+21:    </html>
+  
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+Started GET "/static_pages/home" for ::1 at 2019-11-19 15:24:05 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 15.8ms | Allocations: 762)
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.0ms | Allocations: 3051)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html> 
+<html>
+  <head> 
+    <title><%= full tile (yield(:title) %></title> 
+    <%= csrf_meta_tags %> 
+    <%= stylesheet_link_tag 'application', media: 'all', 
+                                          'data-turbolinks-track': 
+'reload' %> 
+    <%= javascript_include_tag 'application', 
+                                          'data-turbolinks-track': 
+'reload' %> 
+    <%= render 'layout/shim' %> 
+  </head> 
+  <body> 
+    <%= render 'layout/header' %>
+    <div class="container"> 
+      <%= yield %> 
+      <%= render 'layout/footer' %>
+    </div> 
+  </body> 
+</html>
+
+):
+1:    <!DOCTYPE html> 
+2:    <html>
+3:      <head> 
+4:        <title><%= full tile (yield(:title) %></title> 
+5:        <%= csrf_meta_tags %> 
+6:        <%= stylesheet_link_tag 'application', media: 'all', 
+7:                                              'data-turbolinks-track': 
+8:    'reload' %> 
+9:        <%= javascript_include_tag 'application', 
+10:                                              'data-turbolinks-track': 
+11:    'reload' %> 
+12:        <%= render 'layout/shim' %> 
+13:      </head> 
+14:      <body> 
+15:        <%= render 'layout/header' %>
+16:        <div class="container"> 
+17:          <%= yield %> 
+18:          <%= render 'layout/footer' %>
+19:        </div> 
+20:      </body> 
+21:    </html>
+  
+app/views/layouts/application.html.erb:24: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:24: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:24: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:24: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:24: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:24: syntax error, unexpected end, expecting ')'
+Started POST "/__web_console/repl_sessions/92a3665c19d319eb94e5e086d9cf9f0a/trace" for ::1 at 2019-11-19 15:24:46 +0700
+Started GET "/static_pages/home" for ::1 at 2019-11-19 15:25:10 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 18.7ms | Allocations: 762)
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 0.0ms | Allocations: 3050)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html> 
+<html>
+  <head> 
+    <title><%= full tile (yield(:title) %></title> 
+    <%= csrf_meta_tags %> 
+    <%= stylesheet_link_tag 'application', media: 'all', 
+                                          'data-turbolinks-track': 
+'reload' %> 
+    <%= javascript_include_tag 'application', 
+                                          'data-turbolinks-track': 
+'reload' %> 
+    <%= render 'layout/shim' %> 
+  </head> 
+  <body> 
+    <%= render 'layout/header' %>
+    <div class="container"> 
+      <%= yield %> 
+      <%= render 'layout/footer' %>
+    </div> 
+  </body> 
+</html>
+):
+1:    <!DOCTYPE html> 
+2:    <html>
+3:      <head> 
+4:        <title><%= full tile (yield(:title) %></title> 
+5:        <%= csrf_meta_tags %> 
+6:        <%= stylesheet_link_tag 'application', media: 'all', 
+7:                                              'data-turbolinks-track': 
+8:    'reload' %> 
+9:        <%= javascript_include_tag 'application', 
+10:                                              'data-turbolinks-track': 
+11:    'reload' %> 
+12:        <%= render 'layout/shim' %> 
+13:      </head> 
+14:      <body> 
+15:        <%= render 'layout/header' %>
+16:        <div class="container"> 
+17:          <%= yield %> 
+18:          <%= render 'layout/footer' %>
+19:        </div> 
+20:      </body> 
+21:    </html>
+  
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+Started GET "/static_pages/home" for ::1 at 2019-11-19 15:26:57 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 7.7ms | Allocations: 762)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | Allocations: 3050)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html> 
+<html>
+  <head> 
+    <title><%= full tile (yield(:title) %></title> 
+    <%= csrf_meta_tags %> 
+    <%= stylesheet_link_tag 'application', media: 'all', 
+                                          'data-turbolinks-track': 
+'reload' %> 
+    <%= javascript_include_tag 'application', 
+                                          'data-turbolinks-track': 
+'reload' %> 
+    <%= render 'layout/shim' %> 
+  </head> 
+  <body> 
+    <%= render 'layout/header' %>
+    <div class="container"> 
+      <%= yield %> 
+      <%= render 'layout/footer' %>
+    </div> 
+  </body> 
+</html>
+):
+1:    <!DOCTYPE html> 
+2:    <html>
+3:      <head> 
+4:        <title><%= full tile (yield(:title) %></title> 
+5:        <%= csrf_meta_tags %> 
+6:        <%= stylesheet_link_tag 'application', media: 'all', 
+7:                                              'data-turbolinks-track': 
+8:    'reload' %> 
+9:        <%= javascript_include_tag 'application', 
+10:                                              'data-turbolinks-track': 
+11:    'reload' %> 
+12:        <%= render 'layout/shim' %> 
+13:      </head> 
+14:      <body> 
+15:        <%= render 'layout/header' %>
+16:        <div class="container"> 
+17:          <%= yield %> 
+18:          <%= render 'layout/footer' %>
+19:        </div> 
+20:      </body> 
+21:    </html>
+  
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+Started GET "/static_pages/home" for ::1 at 2019-11-19 15:26:59 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 621)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2154)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html> 
+<html>
+  <head> 
+    <title><%= full tile (yield(:title) %></title> 
+    <%= csrf_meta_tags %> 
+    <%= stylesheet_link_tag 'application', media: 'all', 
+                                          'data-turbolinks-track': 
+'reload' %> 
+    <%= javascript_include_tag 'application', 
+                                          'data-turbolinks-track': 
+'reload' %> 
+    <%= render 'layout/shim' %> 
+  </head> 
+  <body> 
+    <%= render 'layout/header' %>
+    <div class="container"> 
+      <%= yield %> 
+      <%= render 'layout/footer' %>
+    </div> 
+  </body> 
+</html>
+):
+1:    <!DOCTYPE html> 
+2:    <html>
+3:      <head> 
+4:        <title><%= full tile (yield(:title) %></title> 
+5:        <%= csrf_meta_tags %> 
+6:        <%= stylesheet_link_tag 'application', media: 'all', 
+7:                                              'data-turbolinks-track': 
+8:    'reload' %> 
+9:        <%= javascript_include_tag 'application', 
+10:                                              'data-turbolinks-track': 
+11:    'reload' %> 
+12:        <%= render 'layout/shim' %> 
+13:      </head> 
+14:      <body> 
+15:        <%= render 'layout/header' %>
+16:        <div class="container"> 
+17:          <%= yield %> 
+18:          <%= render 'layout/footer' %>
+19:        </div> 
+20:      </body> 
+21:    </html>
+  
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+Started POST "/__web_console/repl_sessions/0224f1f069bc03fed60844c1a5f91630/trace" for ::1 at 2019-11-19 15:27:03 +0700
+Started GET "/static_pages/" for ::1 at 2019-11-19 15:29:44 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/static_pages"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/static_pages/home" for ::1 at 2019-11-19 15:29:51 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 7.6ms | Allocations: 621)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms | Allocations: 2153)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html> 
+<html>
+  <head> 
+    <title><%= full tile (yield(:title) %></title> 
+    <%= csrf_meta_tags %> 
+    <%= stylesheet_link_tag 'application', media: 'all', 
+                                          'data-turbolinks-track': 
+'reload' %> 
+    <%= javascript_include_tag 'application', 
+                                          'data-turbolinks-track': 
+'reload' %> 
+    <%= render 'layout/shim' %> 
+  </head> 
+  <body> 
+    <%= render 'layout/header' %>
+    <div class="container"> 
+      <%= yield %> 
+      <%= render 'layout/footer' %>
+    </div> 
+  </body> 
+</html>
+):
+1:    <!DOCTYPE html> 
+2:    <html>
+3:      <head> 
+4:        <title><%= full tile (yield(:title) %></title> 
+5:        <%= csrf_meta_tags %> 
+6:        <%= stylesheet_link_tag 'application', media: 'all', 
+7:                                              'data-turbolinks-track': 
+8:    'reload' %> 
+9:        <%= javascript_include_tag 'application', 
+10:                                              'data-turbolinks-track': 
+11:    'reload' %> 
+12:        <%= render 'layout/shim' %> 
+13:      </head> 
+14:      <body> 
+15:        <%= render 'layout/header' %>
+16:        <div class="container"> 
+17:          <%= yield %> 
+18:          <%= render 'layout/footer' %>
+19:        </div> 
+20:      </body> 
+21:    </html>
+  
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+Started POST "/__web_console/repl_sessions/2a9ec0330a570ef7be9221f0c42b4661/trace" for ::1 at 2019-11-19 15:30:00 +0700
+Started POST "/__web_console/repl_sessions/2a9ec0330a570ef7be9221f0c42b4661/trace" for ::1 at 2019-11-19 15:30:02 +0700
+Started GET "/" for ::1 at 2019-11-19 15:31:29 +0700
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.2ms | Allocations: 2)
+Completed 200 OK in 28ms (Views: 14.6ms | ActiveRecord: 0.0ms | Allocations: 542)
+
+
+Started GET "/static_pages/home" for ::1 at 2019-11-19 15:31:34 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 22.5ms | Allocations: 762)
+Completed 500 Internal Server Error in 584ms (ActiveRecord: 0.0ms | Allocations: 82780)
+
+
+  
+ActionView::Template::Error (undefined method `full_title' for #<#<Class:0x00007f921654c428>:0x00007f9216926a08>):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title))%></title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag     'application', media: 'all',
+    7:                                             'data-turbolinks-track':
+  
+app/views/layouts/application.html.erb:4
+Started GET "/static_pages/home" for ::1 at 2019-11-19 15:32:37 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 10.9ms | Allocations: 767)
+Completed 500 Internal Server Error in 351ms (ActiveRecord: 0.0ms | Allocations: 82774)
+
+
+  
+ActionView::Template::Error (undefined method `full_title' for #<#<Class:0x00007f9215b59a10>:0x00007f9215b88428>):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag     'application', media: 'all',
+    7:                                             'data-turbolinks-track':
+  
+app/views/layouts/application.html.erb:4
+Started GET "/static_pages/home" for ::1 at 2019-11-19 15:33:11 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 9.8ms | Allocations: 762)
+Completed 500 Internal Server Error in 249ms (ActiveRecord: 0.0ms | Allocations: 82769)
+
+
+  
+ActionView::Template::Error (undefined method `full_title' for #<#<Class:0x00007f92163a99b8>:0x00007f92163b2950>):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag     'application', media: 'all',
+    7:                                             'data-turbolinks-track':
+  
+app/views/layouts/application.html.erb:4
+Started GET "/static_pages/home" for ::1 at 2019-11-19 15:33:26 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.1ms | Allocations: 762)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms | Allocations: 3038)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html> 
+<html>
+  <head> 
+    <title><%= full tile (yield(:title) %></title> 
+    <%= csrf_meta_tags %> 
+    <%= stylesheet_link_tag 'application', media: 'all', 
+                                          'data-turbolinks-track': 
+'reload' %> 
+    <%= javascript_include_tag 'application', 
+                                          'data-turbolinks-track': 
+'reload' %> 
+    <%= render 'layout/shim' %> 
+  </head> 
+  <body> 
+    <%= render 'layout/header' 
+    <div class="container"> 
+      <%= yield %> 
+      <%= render 'layout/footer' %>
+    </div> 
+  </body> 
+</html>
+):
+1:    <!DOCTYPE html> 
+2:    <html>
+3:      <head> 
+4:        <title><%= full tile (yield(:title) %></title> 
+5:        <%= csrf_meta_tags %> 
+6:        <%= stylesheet_link_tag 'application', media: 'all', 
+7:                                              'data-turbolinks-track': 
+8:    'reload' %> 
+9:        <%= javascript_include_tag 'application', 
+10:                                              'data-turbolinks-track': 
+11:    'reload' %> 
+12:        <%= render 'layout/shim' %> 
+13:      </head> 
+14:      <body> 
+15:        <%= render 'layout/header' 
+16:        <div class="container"> 
+17:          <%= yield %> 
+18:          <%= render 'layout/footer' %>
+19:        </div> 
+20:      </body> 
+21:    </html>
+  
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+Started GET "/static_pages/home" for ::1 at 2019-11-19 15:33:36 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.2ms | Allocations: 762)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 3050)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html> 
+<html>
+  <head> 
+    <title><%= full tile (yield(:title) %></title> 
+    <%= csrf_meta_tags %> 
+    <%= stylesheet_link_tag 'application', media: 'all', 
+                                          'data-turbolinks-track': 
+'reload' %> 
+    <%= javascript_include_tag 'application', 
+                                          'data-turbolinks-track': 
+'reload' %> 
+    <%= render 'layout/shim' %> 
+  </head> 
+  <body> 
+    <%= render 'layout/header'  %>
+    <div class="container"> 
+      <%= yield %> 
+      <%= render 'layout/footer' %>
+    </div> 
+  </body> 
+</html>
+):
+1:    <!DOCTYPE html> 
+2:    <html>
+3:      <head> 
+4:        <title><%= full tile (yield(:title) %></title> 
+5:        <%= csrf_meta_tags %> 
+6:        <%= stylesheet_link_tag 'application', media: 'all', 
+7:                                              'data-turbolinks-track': 
+8:    'reload' %> 
+9:        <%= javascript_include_tag 'application', 
+10:                                              'data-turbolinks-track': 
+11:    'reload' %> 
+12:        <%= render 'layout/shim' %> 
+13:      </head> 
+14:      <body> 
+15:        <%= render 'layout/header'  %>
+16:        <div class="container"> 
+17:          <%= yield %> 
+18:          <%= render 'layout/footer' %>
+19:        </div> 
+20:      </body> 
+21:    </html>
+  
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+Started GET "/static_pages/home" for ::1 at 2019-11-19 15:34:02 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 7.0ms | Allocations: 762)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 3050)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html> 
+<html>
+  <head> 
+    <title><%= full tile (yield(:title) %></title> 
+    <%= csrf_meta_tags %> 
+    <%= stylesheet_link_tag 'application', media: 'all', 
+                                          'data-turbolinks-track': 
+ 'reload' %> 
+    <%= javascript_include_tag 'application', 
+                                          'data-turbolinks-track': 
+ 'reload' %> 
+    <%= render 'layout/shim' %> 
+  </head> 
+  <body> 
+    <%= render 'layout/header'  %>
+    <div class="container"> 
+      <%= yield %> 
+      <%= render 'layout/footer' %>
+    </div> 
+  </body> 
+</html>
+):
+1:    <!DOCTYPE html> 
+2:    <html>
+3:      <head> 
+4:        <title><%= full tile (yield(:title) %></title> 
+5:        <%= csrf_meta_tags %> 
+6:        <%= stylesheet_link_tag 'application', media: 'all', 
+7:                                              'data-turbolinks-track': 
+8:     'reload' %> 
+9:        <%= javascript_include_tag 'application', 
+10:                                              'data-turbolinks-track': 
+11:     'reload' %> 
+12:        <%= render 'layout/shim' %> 
+13:      </head> 
+14:      <body> 
+15:        <%= render 'layout/header'  %>
+16:        <div class="container"> 
+17:          <%= yield %> 
+18:          <%= render 'layout/footer' %>
+19:        </div> 
+20:      </body> 
+21:    </html>
+  
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+Started GET "/static_pages/home" for ::1 at 2019-11-19 15:34:04 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.2ms | Allocations: 621)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2154)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html> 
+<html>
+  <head> 
+    <title><%= full tile (yield(:title) %></title> 
+    <%= csrf_meta_tags %> 
+    <%= stylesheet_link_tag 'application', media: 'all', 
+                                          'data-turbolinks-track': 
+ 'reload' %> 
+    <%= javascript_include_tag 'application', 
+                                          'data-turbolinks-track': 
+ 'reload' %> 
+    <%= render 'layout/shim' %> 
+  </head> 
+  <body> 
+    <%= render 'layout/header'  %>
+    <div class="container"> 
+      <%= yield %> 
+      <%= render 'layout/footer' %>
+    </div> 
+  </body> 
+</html>
+):
+1:    <!DOCTYPE html> 
+2:    <html>
+3:      <head> 
+4:        <title><%= full tile (yield(:title) %></title> 
+5:        <%= csrf_meta_tags %> 
+6:        <%= stylesheet_link_tag 'application', media: 'all', 
+7:                                              'data-turbolinks-track': 
+8:     'reload' %> 
+9:        <%= javascript_include_tag 'application', 
+10:                                              'data-turbolinks-track': 
+11:     'reload' %> 
+12:        <%= render 'layout/shim' %> 
+13:      </head> 
+14:      <body> 
+15:        <%= render 'layout/header'  %>
+16:        <div class="container"> 
+17:          <%= yield %> 
+18:          <%= render 'layout/footer' %>
+19:        </div> 
+20:      </body> 
+21:    </html>
+  
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+Started GET "/" for ::1 at 2019-11-19 15:34:08 +0700
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | Allocations: 2)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 531)
+
+
+Started GET "/static_pages/home" for ::1 at 2019-11-19 15:34:14 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 7.5ms | Allocations: 621)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms | Allocations: 2151)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html> 
+<html>
+  <head> 
+    <title><%= full tile (yield(:title) %></title> 
+    <%= csrf_meta_tags %> 
+    <%= stylesheet_link_tag 'application', media: 'all', 
+                                          'data-turbolinks-track': 
+ 'reload' %> 
+    <%= javascript_include_tag 'application', 
+                                          'data-turbolinks-track': 
+ 'reload' %> 
+    <%= render 'layout/shim' %> 
+  </head> 
+  <body> 
+    <%= render 'layout/header'  %>
+    <div class="container"> 
+      <%= yield %> 
+      <%= render 'layout/footer' %>
+    </div> 
+  </body> 
+</html>
+):
+1:    <!DOCTYPE html> 
+2:    <html>
+3:      <head> 
+4:        <title><%= full tile (yield(:title) %></title> 
+5:        <%= csrf_meta_tags %> 
+6:        <%= stylesheet_link_tag 'application', media: 'all', 
+7:                                              'data-turbolinks-track': 
+8:     'reload' %> 
+9:        <%= javascript_include_tag 'application', 
+10:                                              'data-turbolinks-track': 
+11:     'reload' %> 
+12:        <%= render 'layout/shim' %> 
+13:      </head> 
+14:      <body> 
+15:        <%= render 'layout/header'  %>
+16:        <div class="container"> 
+17:          <%= yield %> 
+18:          <%= render 'layout/footer' %>
+19:        </div> 
+20:      </body> 
+21:    </html>
+  
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+Started GET "/static_pages/home" for ::1 at 2019-11-19 15:35:41 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 25.1ms | Allocations: 621)
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 0.0ms | Allocations: 2151)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html> 
+<html>
+  <head> 
+    <title><%= full tile (yield(:title) %></title> 
+    <%= csrf_meta_tags %> 
+    <%= stylesheet_link_tag 'application', media: 'all', 
+                                          'data-turbolinks-track': 
+ 'reload' %> 
+    <%= javascript_include_tag 'application', 
+                                          'data-turbolinks-track': 
+ 'reload' %> 
+    <%= render 'layout/shim' %> 
+  </head> 
+  <body> 
+    <%= render 'layout/header'  %>
+    <div class="container"> 
+      <%= yield %> 
+      <%= render 'layout/footer' %>
+    </div> 
+  </body> 
+</html>
+):
+1:    <!DOCTYPE html> 
+2:    <html>
+3:      <head> 
+4:        <title><%= full tile (yield(:title) %></title> 
+5:        <%= csrf_meta_tags %> 
+6:        <%= stylesheet_link_tag 'application', media: 'all', 
+7:                                              'data-turbolinks-track': 
+8:     'reload' %> 
+9:        <%= javascript_include_tag 'application', 
+10:                                              'data-turbolinks-track': 
+11:     'reload' %> 
+12:        <%= render 'layout/shim' %> 
+13:      </head> 
+14:      <body> 
+15:        <%= render 'layout/header'  %>
+16:        <div class="container"> 
+17:          <%= yield %> 
+18:          <%= render 'layout/footer' %>
+19:        </div> 
+20:      </body> 
+21:    </html>
+  
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:23: syntax error, unexpected end, expecting ')'
+Started GET "/static_pages/home" for ::1 at 2019-11-19 15:40:04 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 21.4ms | Allocations: 764)
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 0.0ms | Allocations: 3048)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html> 
+<html>
+  <head> 
+    <title><%= full tile (yield(:title) %></title> 
+    <%= csrf_meta_tags %> 
+    <%= stylesheet_link_tag 'application', media: 'all', 
+                                          'data-turbolinks-track':'reload' %> 
+    <%= javascript_include_tag 'application', 
+                                          'data-turbolinks-track':'reload' %> 
+    <%= render 'layout/shim' %> 
+  </head> 
+  <body> 
+    <%= render 'layout/header'  %>
+    <div class="container"> 
+      <%= yield %> 
+      <%= render 'layout/footer' %>
+    </div> 
+  </body> 
+</html>
+):
+1:    <!DOCTYPE html> 
+2:    <html>
+3:      <head> 
+4:        <title><%= full tile (yield(:title) %></title> 
+5:        <%= csrf_meta_tags %> 
+6:        <%= stylesheet_link_tag 'application', media: 'all', 
+7:                                              'data-turbolinks-track':'reload' %> 
+8:        <%= javascript_include_tag 'application', 
+9:                                              'data-turbolinks-track':'reload' %> 
+10:        <%= render 'layout/shim' %> 
+11:      </head> 
+12:      <body> 
+13:        <%= render 'layout/header'  %>
+14:        <div class="container"> 
+15:          <%= yield %> 
+16:          <%= render 'layout/footer' %>
+17:        </div> 
+18:      </body> 
+19:    </html>
+  
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+Started GET "/static_pages/home" for ::1 at 2019-11-19 15:40:08 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.0ms | Allocations: 621)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2150)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html> 
+<html>
+  <head> 
+    <title><%= full tile (yield(:title) %></title> 
+    <%= csrf_meta_tags %> 
+    <%= stylesheet_link_tag 'application', media: 'all', 
+                                          'data-turbolinks-track':'reload' %> 
+    <%= javascript_include_tag 'application', 
+                                          'data-turbolinks-track':'reload' %> 
+    <%= render 'layout/shim' %> 
+  </head> 
+  <body> 
+    <%= render 'layout/header'  %>
+    <div class="container"> 
+      <%= yield %> 
+      <%= render 'layout/footer' %>
+    </div> 
+  </body> 
+</html>
+):
+1:    <!DOCTYPE html> 
+2:    <html>
+3:      <head> 
+4:        <title><%= full tile (yield(:title) %></title> 
+5:        <%= csrf_meta_tags %> 
+6:        <%= stylesheet_link_tag 'application', media: 'all', 
+7:                                              'data-turbolinks-track':'reload' %> 
+8:        <%= javascript_include_tag 'application', 
+9:                                              'data-turbolinks-track':'reload' %> 
+10:        <%= render 'layout/shim' %> 
+11:      </head> 
+12:      <body> 
+13:        <%= render 'layout/header'  %>
+14:        <div class="container"> 
+15:          <%= yield %> 
+16:          <%= render 'layout/footer' %>
+17:        </div> 
+18:      </body> 
+19:    </html>
+  
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+Started GET "/static_pages/home" for ::1 at 2019-11-19 15:41:43 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 30.6ms | Allocations: 762)
+Completed 500 Internal Server Error in 66ms (ActiveRecord: 0.0ms | Allocations: 3046)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html> 
+<html>
+  <head> 
+    <title><%= full tile (yield(:title) %></title> 
+    <%= csrf_meta_tags %> 
+    <%= stylesheet_link_tag 'application', media: 'all', 
+                                          'data-turbolinks-track':'reload' %> 
+    <%= javascript_include_tag 'application', 
+                                          'data-turbolinks-track':'reload' %> 
+    <%= render 'layout/shim' %> 
+  </head> 
+  <body> 
+    <%= render 'layout/header'  %>
+    <div class="container"> 
+      <%= yield %> 
+      <%= render 'layout/footer' %>
+    </div> 
+  </body> 
+</html>
+):
+1:    <!DOCTYPE html> 
+2:    <html>
+3:      <head> 
+4:        <title><%= full tile (yield(:title) %></title> 
+5:        <%= csrf_meta_tags %> 
+6:        <%= stylesheet_link_tag 'application', media: 'all', 
+7:                                              'data-turbolinks-track':'reload' %> 
+8:        <%= javascript_include_tag 'application', 
+9:                                              'data-turbolinks-track':'reload' %> 
+10:        <%= render 'layout/shim' %> 
+11:      </head> 
+12:      <body> 
+13:        <%= render 'layout/header'  %>
+14:        <div class="container"> 
+15:          <%= yield %> 
+16:          <%= render 'layout/footer' %>
+17:        </div> 
+18:      </body> 
+19:    </html>
+  
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+Started GET "/static_pages/home" for ::1 at 2019-11-19 15:41:47 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.2ms | Allocations: 621)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2150)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html> 
+<html>
+  <head> 
+    <title><%= full tile (yield(:title) %></title> 
+    <%= csrf_meta_tags %> 
+    <%= stylesheet_link_tag 'application', media: 'all', 
+                                          'data-turbolinks-track':'reload' %> 
+    <%= javascript_include_tag 'application', 
+                                          'data-turbolinks-track':'reload' %> 
+    <%= render 'layout/shim' %> 
+  </head> 
+  <body> 
+    <%= render 'layout/header'  %>
+    <div class="container"> 
+      <%= yield %> 
+      <%= render 'layout/footer' %>
+    </div> 
+  </body> 
+</html>
+):
+1:    <!DOCTYPE html> 
+2:    <html>
+3:      <head> 
+4:        <title><%= full tile (yield(:title) %></title> 
+5:        <%= csrf_meta_tags %> 
+6:        <%= stylesheet_link_tag 'application', media: 'all', 
+7:                                              'data-turbolinks-track':'reload' %> 
+8:        <%= javascript_include_tag 'application', 
+9:                                              'data-turbolinks-track':'reload' %> 
+10:        <%= render 'layout/shim' %> 
+11:      </head> 
+12:      <body> 
+13:        <%= render 'layout/header'  %>
+14:        <div class="container"> 
+15:          <%= yield %> 
+16:          <%= render 'layout/footer' %>
+17:        </div> 
+18:      </body> 
+19:    </html>
+  
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+Started GET "/static_pages/home" for ::1 at 2019-11-19 15:42:01 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 6.7ms | Allocations: 762)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms | Allocations: 3046)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html> 
+<html>
+  <head> 
+    <title><%= full tile (yield(:title) %></title> 
+    <%= csrf_meta_tags %> 
+    <%= stylesheet_link_tag 'application', media: 'all', 
+                                          'data-turbolinks-track':'reload' %> 
+    <%= javascript_include_tag 'application', 
+                                          'data-turbolinks-track':'reload' %> 
+    <%= render 'layout/shim' %> 
+  </head> 
+  <body> 
+    <%= render 'layout/header'  %>
+    <div class="container"> 
+      <%= yield %> 
+      <%= render 'layout/footer' %>
+    </div> 
+  </body> 
+
+):
+1:    <!DOCTYPE html> 
+2:    <html>
+3:      <head> 
+4:        <title><%= full tile (yield(:title) %></title> 
+5:        <%= csrf_meta_tags %> 
+6:        <%= stylesheet_link_tag 'application', media: 'all', 
+7:                                              'data-turbolinks-track':'reload' %> 
+8:        <%= javascript_include_tag 'application', 
+9:                                              'data-turbolinks-track':'reload' %> 
+10:        <%= render 'layout/shim' %> 
+11:      </head> 
+12:      <body> 
+13:        <%= render 'layout/header'  %>
+14:        <div class="container"> 
+15:          <%= yield %> 
+16:          <%= render 'layout/footer' %>
+17:        </div> 
+18:      </body> 
+  
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+Started GET "/static_pages/home" for ::1 at 2019-11-19 15:42:03 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.9ms | Allocations: 621)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2150)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html> 
+<html>
+  <head> 
+    <title><%= full tile (yield(:title) %></title> 
+    <%= csrf_meta_tags %> 
+    <%= stylesheet_link_tag 'application', media: 'all', 
+                                          'data-turbolinks-track':'reload' %> 
+    <%= javascript_include_tag 'application', 
+                                          'data-turbolinks-track':'reload' %> 
+    <%= render 'layout/shim' %> 
+  </head> 
+  <body> 
+    <%= render 'layout/header'  %>
+    <div class="container"> 
+      <%= yield %> 
+      <%= render 'layout/footer' %>
+    </div> 
+  </body> 
+
+):
+1:    <!DOCTYPE html> 
+2:    <html>
+3:      <head> 
+4:        <title><%= full tile (yield(:title) %></title> 
+5:        <%= csrf_meta_tags %> 
+6:        <%= stylesheet_link_tag 'application', media: 'all', 
+7:                                              'data-turbolinks-track':'reload' %> 
+8:        <%= javascript_include_tag 'application', 
+9:                                              'data-turbolinks-track':'reload' %> 
+10:        <%= render 'layout/shim' %> 
+11:      </head> 
+12:      <body> 
+13:        <%= render 'layout/header'  %>
+14:        <div class="container"> 
+15:          <%= yield %> 
+16:          <%= render 'layout/footer' %>
+17:        </div> 
+18:      </body> 
+  
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:21: syntax error, unexpected end, expecting ')'
+Started GET "/static_pages/home" for ::1 at 2019-11-19 15:43:12 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 13.8ms | Allocations: 762)
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 0.0ms | Allocations: 3047)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html> 
+<html>
+  <head> 
+    <title><%= full tile (yield(:title) %></title> 
+    <%= csrf_meta_tags %> 
+    <%= stylesheet_link_tag 'application', media: 'all', 
+                                          'data-turbolinks-track':'reload' %> 
+    <%= javascript_include_tag 'application', 
+                                          'data-turbolinks-track':'reload' %> 
+    <%= render 'layout/shim' %> 
+  </head> 
+  <body> 
+    <%= render 'layout/header'  %>
+    <div class="container"> 
+      <%= yield %> 
+      <%= render 'layout/footer' %>
+    </div> 
+  </body> 
+</html>
+
+):
+1:    <!DOCTYPE html> 
+2:    <html>
+3:      <head> 
+4:        <title><%= full tile (yield(:title) %></title> 
+5:        <%= csrf_meta_tags %> 
+6:        <%= stylesheet_link_tag 'application', media: 'all', 
+7:                                              'data-turbolinks-track':'reload' %> 
+8:        <%= javascript_include_tag 'application', 
+9:                                              'data-turbolinks-track':'reload' %> 
+10:        <%= render 'layout/shim' %> 
+11:      </head> 
+12:      <body> 
+13:        <%= render 'layout/header'  %>
+14:        <div class="container"> 
+15:          <%= yield %> 
+16:          <%= render 'layout/footer' %>
+17:        </div> 
+18:      </body> 
+19:    </html>
+  
+app/views/layouts/application.html.erb:22: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:22: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:22: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:22: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:22: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:22: syntax error, unexpected end, expecting ')'
+Started GET "/static_pages/home" for ::1 at 2019-11-19 15:43:16 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.3ms | Allocations: 621)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2151)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html> 
+<html>
+  <head> 
+    <title><%= full tile (yield(:title) %></title> 
+    <%= csrf_meta_tags %> 
+    <%= stylesheet_link_tag 'application', media: 'all', 
+                                          'data-turbolinks-track':'reload' %> 
+    <%= javascript_include_tag 'application', 
+                                          'data-turbolinks-track':'reload' %> 
+    <%= render 'layout/shim' %> 
+  </head> 
+  <body> 
+    <%= render 'layout/header'  %>
+    <div class="container"> 
+      <%= yield %> 
+      <%= render 'layout/footer' %>
+    </div> 
+  </body> 
+</html>
+
+):
+1:    <!DOCTYPE html> 
+2:    <html>
+3:      <head> 
+4:        <title><%= full tile (yield(:title) %></title> 
+5:        <%= csrf_meta_tags %> 
+6:        <%= stylesheet_link_tag 'application', media: 'all', 
+7:                                              'data-turbolinks-track':'reload' %> 
+8:        <%= javascript_include_tag 'application', 
+9:                                              'data-turbolinks-track':'reload' %> 
+10:        <%= render 'layout/shim' %> 
+11:      </head> 
+12:      <body> 
+13:        <%= render 'layout/header'  %>
+14:        <div class="container"> 
+15:          <%= yield %> 
+16:          <%= render 'layout/footer' %>
+17:        </div> 
+18:      </body> 
+19:    </html>
+  
+app/views/layouts/application.html.erb:22: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:22: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:22: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:22: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:22: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:22: syntax error, unexpected end, expecting ')'
+Started GET "/" for ::1 at 2019-11-19 15:43:19 +0700
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | Allocations: 2)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 528)
+
+
+Started GET "/static_pages/home" for ::1 at 2019-11-19 15:43:24 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 621)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2146)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html> 
+<html>
+  <head> 
+    <title><%= full tile (yield(:title) %></title> 
+    <%= csrf_meta_tags %> 
+    <%= stylesheet_link_tag 'application', media: 'all', 
+                                          'data-turbolinks-track':'reload' %> 
+    <%= javascript_include_tag 'application', 
+                                          'data-turbolinks-track':'reload' %> 
+    <%= render 'layout/shim' %> 
+  </head> 
+  <body> 
+    <%= render 'layout/header'  %>
+    <div class="container"> 
+      <%= yield %> 
+      <%= render 'layout/footer' %>
+    </div> 
+  </body> 
+</html>
+
+):
+1:    <!DOCTYPE html> 
+2:    <html>
+3:      <head> 
+4:        <title><%= full tile (yield(:title) %></title> 
+5:        <%= csrf_meta_tags %> 
+6:        <%= stylesheet_link_tag 'application', media: 'all', 
+7:                                              'data-turbolinks-track':'reload' %> 
+8:        <%= javascript_include_tag 'application', 
+9:                                              'data-turbolinks-track':'reload' %> 
+10:        <%= render 'layout/shim' %> 
+11:      </head> 
+12:      <body> 
+13:        <%= render 'layout/header'  %>
+14:        <div class="container"> 
+15:          <%= yield %> 
+16:          <%= render 'layout/footer' %>
+17:        </div> 
+18:      </body> 
+19:    </html>
+  
+app/views/layouts/application.html.erb:22: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:22: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:22: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:22: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:22: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:22: syntax error, unexpected end, expecting ')'
+Started POST "/__web_console/repl_sessions/10cdb731ee55fdafdc903f0b629926a9/trace" for ::1 at 2019-11-19 15:43:34 +0700
+Started GET "/static_pages/home" for ::1 at 2019-11-19 15:45:52 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 32.5ms | Allocations: 762)
+Completed 500 Internal Server Error in 466ms (ActiveRecord: 0.0ms | Allocations: 82798)
+
+
+  
+ActionView::Template::Error (undefined method `tile' for #<#<Class:0x00007f9219bed900>:0x00007f9219bf7450>):
+    1: <!DOCTYPE html> 
+    2: <html>
+    3:   <head> 
+    4:     <title><%= full tile (yield(:title)) %></title> 
+    5:     <%= csrf_meta_tags %> 
+    6:     <%= stylesheet_link_tag 'application', media: 'all', 
+    7:                                           'data-turbolinks-track':'reload' %> 
+  
+app/views/layouts/application.html.erb:4
+Started GET "/static_pages/home" for ::1 at 2019-11-19 15:46:10 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 7.0ms | Allocations: 762)
+Completed 500 Internal Server Error in 273ms (ActiveRecord: 0.0ms | Allocations: 82781)
+
+
+  
+ActionView::Template::Error (undefined method `title' for #<#<Class:0x00007f92166bdd98>:0x00007f92166b7bf0>):
+    1: <!DOCTYPE html> 
+    2: <html>
+    3:   <head> 
+    4:     <title><%= full title(yield(:title)) %></title> 
+    5:     <%= csrf_meta_tags %> 
+    6:     <%= stylesheet_link_tag 'application', media: 'all', 
+    7:                                           'data-turbolinks-track':'reload' %> 
+  
+app/views/layouts/application.html.erb:4
+Started GET "/static_pages/home" for ::1 at 2019-11-19 15:46:25 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.6ms | Allocations: 622)
+Completed 500 Internal Server Error in 222ms (ActiveRecord: 0.0ms | Allocations: 81646)
+
+
+  
+ActionView::Template::Error (undefined method `title' for #<#<Class:0x00007f92166bdd98>:0x00007f92167ce660>):
+    1: <!DOCTYPE html> 
+    2: <html>
+    3:   <head> 
+    4:     <title><%= full title(yield(:title)) %></title> 
+    5:     <%= csrf_meta_tags %> 
+    6:     <%= stylesheet_link_tag 'application', media: 'all', 
+    7:                                           'data-turbolinks-track':'reload' %> 
+  
+app/views/layouts/application.html.erb:4
+Started GET "/static_pages/home" for ::1 at 2019-11-19 15:52:33 +0700
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 10.3ms | Allocations: 621)
+Completed 500 Internal Server Error in 318ms (ActiveRecord: 0.0ms | Allocations: 81639)
+
+
+  
+ActionView::Template::Error (undefined method `title' for #<#<Class:0x00007f92166bdd98>:0x00007f921675f210>):
+    1: <!DOCTYPE html> 
+    2: <html>
+    3:   <head> 
+    4:     <title><%= full title(yield(:title)) %></title> 
+    5:     <%= csrf_meta_tags %> 
+    6:     <%= stylesheet_link_tag 'application', media: 'all', 
+    7:                                           'data-turbolinks-track':'reload' %> 
+  
+app/views/layouts/application.html.erb:4
+Started GET "/static_pages/home" for ::1 at 2019-11-19 15:52:36 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.4ms | Allocations: 621)
+Completed 500 Internal Server Error in 209ms (ActiveRecord: 0.0ms | Allocations: 81638)
+
+
+  
+ActionView::Template::Error (undefined method `title' for #<#<Class:0x00007f92166bdd98>:0x00007f9216707830>):
+    1: <!DOCTYPE html> 
+    2: <html>
+    3:   <head> 
+    4:     <title><%= full title(yield(:title)) %></title> 
+    5:     <%= csrf_meta_tags %> 
+    6:     <%= stylesheet_link_tag 'application', media: 'all', 
+    7:                                           'data-turbolinks-track':'reload' %> 
+  
+app/views/layouts/application.html.erb:4
+Started GET "/static_pages/home" for ::1 at 2019-11-19 15:53:05 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 7.1ms | Allocations: 762)
+Completed 500 Internal Server Error in 211ms (ActiveRecord: 0.0ms | Allocations: 82780)
+
+
+  
+ActionView::Template::Error (undefined method `full_title' for #<#<Class:0x00007f9219cc3668>:0x00007f9219cc1d68>):
+    1: <!DOCTYPE html> 
+    2: <html>
+    3:   <head> 
+    4:     <title><%= full_title(yield(:title)) %></title> 
+    5:     <%= csrf_meta_tags %> 
+    6:     <%= stylesheet_link_tag 'application', media: 'all', 
+    7:                                           'data-turbolinks-track':'reload' %> 
+  
+app/views/layouts/application.html.erb:4
+Started GET "/" for ::1 at 2019-11-19 16:52:51 +0700
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.2ms | Allocations: 2)
+Completed 200 OK in 41ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 536)
+
+
+Started GET "/static_pages/home" for ::1 at 2019-11-19 16:52:55 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 37.2ms | Allocations: 762)
+Completed 500 Internal Server Error in 395ms (ActiveRecord: 0.0ms | Allocations: 82744)
+
+
+  
+ActionView::Template::Error (undefined method `full_title' for #<#<Class:0x00007f921b0022b0>:0x00007f921b0008e8>):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag    'application', media: 'all',
+    7:                                               'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:4
+Started GET "/static_pages/home" for ::1 at 2019-11-19 17:02:42 +0700
+  [1m[35m (3.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1830.9ms | Allocations: 65229)
+Completed 500 Internal Server Error in 2126ms (ActiveRecord: 0.0ms | Allocations: 147241)
+
+
+  
+ActionView::Template::Error (undefined method `full_title' for #<#<Class:0x00007faee39db608>:0x00007faee39d8e58>):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag    'application', media: 'all',
+    7:                                               'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:4
+Started GET "/" for ::1 at 2019-11-19 17:16:31 +0700
+  [1m[35m (3.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 413.4ms | Allocations: 11654)
+Completed 500 Internal Server Error in 704ms (ActiveRecord: 0.0ms | Allocations: 93662)
+
+
+  
+ActionView::Template::Error (undefined method `full_title' for #<#<Class:0x00007fbb28a64588>:0x00007fbb27fb15a0>):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag    'application', media: 'all',
+    7:                                               'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:4
+Started GET "/" for ::1 at 2019-11-19 17:19:33 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 16.6ms | Allocations: 642)
+Completed 500 Internal Server Error in 350ms (ActiveRecord: 0.0ms | Allocations: 80579)
+
+
+  
+ActionView::Template::Error (undefined method `full_title' for #<#<Class:0x00007fbb28a64588>:0x00007fbb28da7768>):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag    'application', media: 'all',
+    7:                                               'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:4
+Started POST "/__web_console/repl_sessions/77d967baf800e385aeb27137bcefae6a/trace" for ::1 at 2019-11-19 17:19:41 +0700
+Started GET "/" for ::1 at 2019-11-19 17:27:03 +0700
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 19.3ms | Allocations: 621)
+Completed 500 Internal Server Error in 350ms (ActiveRecord: 0.0ms | Allocations: 80545)
+
+
+  
+ActionView::Template::Error (undefined method `full_title' for #<#<Class:0x00007fbb28a64588>:0x00007fbb28b92608>):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag    'application', media: 'all',
+    7:                                               'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:4
+Started POST "/__web_console/repl_sessions/77d967baf800e385aeb27137bcefae6a/trace" for ::1 at 2019-11-19 17:27:04 +0700
+Started POST "/__web_console/repl_sessions/77d967baf800e385aeb27137bcefae6a/trace" for ::1 at 2019-11-19 17:27:04 +0700
+Started POST "/__web_console/repl_sessions/77d967baf800e385aeb27137bcefae6a/trace" for ::1 at 2019-11-19 17:27:04 +0700
+Started GET "/" for ::1 at 2019-11-19 17:28:59 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 15.2ms | Allocations: 763)
+Completed 500 Internal Server Error in 308ms (ActiveRecord: 0.0ms | Allocations: 30800)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= stylesheet_link_tag    'application', media: 'all',
+     7:                                               'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:     <%= render 'layouts/shim' %>
+    10:   </head>
+    11:   <body>
+  
+app/views/layouts/application.html.erb:8
+Started GET "/" for ::1 at 2019-11-19 17:32:38 +0700
+  [1m[35m (3.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 350.6ms | Allocations: 11650)
+Completed 500 Internal Server Error in 446ms (ActiveRecord: 0.0ms | Allocations: 27137)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= stylesheet_link_tag    'application', media: 'all',
+     7:                                               'data-turbolinks-track': 'reload' %>
+     8:     # <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:     <%= render 'layouts/shim' %>
+    10:   </head>
+    11:   <body>
+  
+app/views/layouts/application.html.erb:8
+Started GET "/" for ::1 at 2019-11-19 17:32:47 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 4.8ms | Allocations: 642)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.0ms | Allocations: 13584)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= stylesheet_link_tag    'application', media: 'all',
+     7:                                               'data-turbolinks-track': 'reload' %>
+     8:     # <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:     <%= render 'layouts/shim' %>
+    10:   </head>
+    11:   <body>
+  
+app/views/layouts/application.html.erb:8
+Started GET "/" for ::1 at 2019-11-19 17:33:15 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 17.8ms | Allocations: 763)
+Completed 500 Internal Server Error in 57ms (ActiveRecord: 0.0ms | Allocations: 9046)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_shim with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/Users/firzanaulia/Documents/GitHub/sampleapp2/app/views"
+  * "/Users/firzanaulia/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/actiontext-6.0.1/app/views"
+  * "/Users/firzanaulia/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/actionmailbox-6.0.1/app/views"
+):
+     6:     <%= stylesheet_link_tag    'application', media: 'all',
+     7:                                               'data-turbolinks-track': 'reload' %>
+     8: 
+     9:     <%= render 'layouts/shim' %>
+    10:   </head>
+    11:   <body>
+    12:     <%= render 'layouts/header' %>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2019-11-19 17:33:35 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.9ms | Allocations: 765)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 237)
+  Rendered layouts/_footer.html.erb (Duration: 1.0ms | Allocations: 160)
+Completed 200 OK in 30ms (Views: 27.9ms | ActiveRecord: 0.0ms | Allocations: 8680)
+
+
+Started GET "/" for ::1 at 2019-11-19 19:02:21 +0700
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 24.7ms | Allocations: 620)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 66)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 31)
+Completed 200 OK in 74ms (Views: 48.1ms | ActiveRecord: 0.0ms | Allocations: 6999)
+
+
+Started GET "/" for ::1 at 2019-11-20 18:06:33 +0700
+  [1m[35m (3.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 507.1ms | Allocations: 11651)
+  Rendered layouts/_header.html.erb (Duration: 3.3ms | Allocations: 237)
+  Rendered layouts/_footer.html.erb (Duration: 2.7ms | Allocations: 160)
+Completed 200 OK in 580ms (Views: 557.3ms | ActiveRecord: 0.0ms | Allocations: 20821)
+
+
+Started GET "/about" for ::1 at 2019-11-20 18:12:39 +0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 3.2ms | Allocations: 96)
+  Rendered layouts/_header.html.erb (Duration: 3.9ms | Allocations: 276)
+  Rendered layouts/_footer.html.erb (Duration: 2.9ms | Allocations: 173)
+Completed 200 OK in 46ms (Views: 44.2ms | ActiveRecord: 0.0ms | Allocations: 8174)
+
+
+Started GET "/help" for 127.0.0.1 at 2019-11-20 18:24:02 +0700
+  [1m[35m (6.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 7.4ms | Allocations: 210)
+  Rendered layouts/_header.html.erb (Duration: 1.5ms | Allocations: 299)
+  Rendered layouts/_footer.html.erb (Duration: 1.9ms | Allocations: 179)
+Completed 200 OK in 992ms (Views: 968.0ms | ActiveRecord: 0.0ms | Allocations: 58407)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 18:24:08 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 6.9ms | Allocations: 811)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 88)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 51)
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.0ms | Allocations: 7437)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 18:24:09 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 652)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 87)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 7145)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 18:24:11 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.7ms | Allocations: 652)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 87)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 49)
+Completed 200 OK in 28ms (Views: 27.1ms | ActiveRecord: 0.0ms | Allocations: 7126)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 18:24:12 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.2ms | Allocations: 651)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 87)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 49)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms | Allocations: 7138)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 18:24:12 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 652)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 87)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 49)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 7134)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 18:24:12 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.3ms | Allocations: 651)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 87)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.0ms | Allocations: 7138)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 18:24:13 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.6ms | Allocations: 651)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 87)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 49)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 7132)
+
+
+Started GET "/help" for 127.0.0.1 at 2019-11-20 18:24:17 +0700
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 2.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 109)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 49)
+Completed 200 OK in 43ms (Views: 41.6ms | ActiveRecord: 0.0ms | Allocations: 6614)
+
+
+Started GET "/login" for 127.0.0.1 at 2019-11-20 18:24:21 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/login"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/signup" for 127.0.0.1 at 2019-11-20 18:24:46 +0700
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered user/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 100)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 115)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 51)
+Completed 200 OK in 50ms (Views: 43.3ms | ActiveRecord: 0.0ms | Allocations: 7341)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 18:24:51 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 5.2ms | Allocations: 656)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 88)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 51)
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.0ms | Allocations: 7149)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-20 18:34:18 +0700
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 5.4ms | Allocations: 90)
+  Rendered layouts/_header.html.erb (Duration: 1.1ms | Allocations: 114)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 51)
+Completed 200 OK in 42ms (Views: 36.1ms | ActiveRecord: 0.0ms | Allocations: 6822)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-11-20 18:34:26 +0700
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered user/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 7)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 114)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 51)
+Completed 200 OK in 17ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 6615)
+
+
+  [1m[35m (3.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (3.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (4.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20191120114135)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (2.5ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191120114135"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (1.0ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-11-20 11:42:41.095982"], ["updated_at", "2019-11-20 11:42:41.095982"]]
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (3.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (4.9ms)[0m  [1m[32mINSERT INTO "users" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2019-11-20 11:46:56.585760"], ["updated_at", "2019-11-20 11:46:56.585760"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (4.7ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (3.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.6ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (4.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Wisnu Adi"], ["email", "wisn@hipe.com"], ["created_at", "2019-11-20 11:50:44.334353"], ["updated_at", "2019-11-20 11:50:44.334353"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (8.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (3.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (3.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Dhanu"], ["email", "dhanu@hipe.com"], ["created_at", "2019-11-20 11:58:05.000596"], ["updated_at", "2019-11-20 11:58:05.000596"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.9ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Foo"], ["email", "foo@bar.com"], ["created_at", "2019-11-20 11:59:08.699433"], ["updated_at", "2019-11-20 11:59:08.699433"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 2]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."name" = ? LIMIT ?[0m  [["name", "Dhanu"], ["LIMIT", 1]]
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (11.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (3.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (3.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (3.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (3.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddIndexToUsersEmail (20191120122045)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mprimary::SchemaMigration Create (2.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191120122045"]]
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (3.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (3.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddPasswordDigestToUsers (20191120122734)
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (3.9ms)[0m  [1m[35mALTER TABLE "users" ADD "password_digest" varchar[0m
+  [1m[36mprimary::SchemaMigration Create (3.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191120122734"]]
+  [1m[35m (2.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (3.5ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
